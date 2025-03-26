@@ -44,3 +44,5 @@ Voici une matrice de confusion obtenue, le résultat est satisfaisant au vue de 
 [7.331068482483027e-05, 3.350808353851967e-05, 0.000634355887921586, 4.7237729682354336e-05]
 [4.421433526629071e-05, 3.6670609387177526e-05, 1.7366097225042364e-05, 0.0006418469547596783]
 ```
+
+Remarquez les puissances négative après les résultats, on peut croire à première vue que les valeurs de la diagonale sont plus faibles mais elles ne le sont pas.
