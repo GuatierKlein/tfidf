@@ -18,6 +18,22 @@ Taille des textes d'entrainement
 Le vocabulaire est composé des mots présents au moins 3 fois dans les textes
 On supprime aussi la ponctuation, la casse, les nombres et les mots stops
 
+Liste des mots stops :
+
+``` {python}
+mots_stop = {
+    "alors", "au", "aucun", "aussi", "autre", "avant", "avec", "avoir", "bon", "car", 
+    "ce", "cela", "ces", "cet", "cette", "comme", "comment", "dans", "des", "du", 
+    "donc", "dont", "elle", "en", "encore", "est", "et", "être", "eux", "fait", "faites", 
+    "fois", "hors", "ici", "il", "ils", "je", "juste", "la", "le", "les", "leur", 
+    "lui", "mais", "malgré", "me", "même", "mes", "mon", "ne", "nos", "notre", "nous", 
+    "ou", "où", "par", "parce", "pas", "peu", "peut", "plupart", "pour", "quand", 
+    "que", "quel", "quelle", "quelles", "quels", "qui", "sans", "ses", "si", "son", 
+    "sont", "sous", "sur", "ta", "tandis", "tellement", "tels", "tes", "ton", "tous", 
+    "tout", "trop", "très", "tu", "voient", "vont", "votre", "vous", "vu", "à", "aux", "de", "l"
+}
+```
+
 ## Résultats
 
 Voici une matrice de confusion obtenue, le résultat est satisfaisant au vue de la diagonale de la matrice qui est plus élevée que le reste.
