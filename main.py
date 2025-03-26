@@ -17,8 +17,6 @@ with open("poli.txt", "r", encoding="utf-8") as fichier:
 ecoTextSplit = cleanText.prepare_text(ecoText)
 eco80, eco20 = split.split_text(ecoTextSplit)
 
-print(len(eco80))
-
 sportTextSplit = cleanText.prepare_text(sportText)
 sport80, sport20 = split.split_text(sportTextSplit)
 
@@ -68,7 +66,7 @@ print("Eco, sport, reli, poli")
 for line in confmatrix:
     print(line)
 
-    # dans le rapport afficher la taille des documents
+
 
 
 
