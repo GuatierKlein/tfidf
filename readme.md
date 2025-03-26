@@ -15,6 +15,8 @@ Taille des textes d'entrainement
 - Economie : 2264
 - Politique : 1078
 
+J'ai utilisé un LLM pour enrichir les données d'entrainement.
+
 Le vocabulaire est composé des mots présents au moins 3 fois dans les textes
 On supprime aussi la ponctuation, la casse, les nombres et les mots stops
 
